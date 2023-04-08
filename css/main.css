@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #3b3838dc;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.block {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 30px;
+    background: #69696ddc;
+}
+
+.card {
+    max-width: 370px;
+    text-align: center;
+    padding-bottom: 20px;
+    border: 2px solid #000;
+}
